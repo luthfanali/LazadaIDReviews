@@ -1,9 +1,9 @@
 import os
 
 from pathlib import Path
-from MLProject.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
-from MLProject.utils.common import read_yaml, create_directories
-from MLProject.entity.config_entity import (DataIngestionConfig, 
+from LazadaIDReviews.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
+from LazadaIDReviews.utils.common import read_yaml, create_directories
+from LazadaIDReviews.entity.config_entity import (DataIngestionConfig, 
                                             PreprocessingConfig,
                                             TrainingConfig,
                                             TrainEvaluationConfig)
@@ -11,7 +11,7 @@ from MLProject.entity.config_entity import (DataIngestionConfig,
 """NOTE: Delete or replace any function as you need
 and don't forget to import each class config from
 '../config/configuration.py' or
-'src/MLProject/config/configuration.py'
+'src/LazadaIDReviews/config/configuration.py'
 """
 
 class ConfigurationManager:

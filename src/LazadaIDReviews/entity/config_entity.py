@@ -4,7 +4,7 @@ from pathlib import Path
 """NOTE: Delete or replace any class as you need
 and don't forget to import this class in
 '../config/configuration.py' or 
-'src/MLProject/config/configuration.py'
+'src/LazadaIDReviews/config/configuration.py'
 """
 
 @dataclass(frozen=True)
